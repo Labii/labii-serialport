@@ -1,4 +1,10 @@
 
+## Serial Port
+
+Serial Port is a widget that can read data from a serial port and support RS-232 communication protocol. The widget has a user interface that allows the user to configure the serial port settings, such as baud rate and number of data bits, and display the incoming data in a readable format, and write data back to device.
+
+Learn more at [https://www.labii.com/widgets/serial-port/](https://www.labii.com/widgets/serial-port/)
+
 > Open this page at [https://weasteam.github.io/labii-serialport/](https://weasteam.github.io/labii-serialport/)
 
 ## Use as Extension

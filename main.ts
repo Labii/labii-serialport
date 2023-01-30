@@ -4,9 +4,8 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(input.temperature())
 })
 input.onButtonPressed(Button.B, function () {
-    music.playTone(262, music.beat(BeatFraction.Whole))
-    serial.writeString("LABII")
-    basic.showIcon(IconNames.Yes)
+    basic.showString("LABII")
+    music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
 })
 serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
     basic.showString(serial.readUntil(serial.delimiters(Delimiters.NewLine)))
